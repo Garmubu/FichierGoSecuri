@@ -21,13 +21,13 @@ pipeline {
         stage('build') {
             steps {
                 echo "Debut de build"
-                bat "javac GoSecuri/src/main/java/Generateur.java"
+                //bat "javac GoSecuri/src/main/java/Generateur.java"
             }
         }
         stage('run') {
             steps {
                 echo "Lancement de l'application"
-                bat "java GoSecuri/src/main/java/Generateur"
+                //bat "java GoSecuri/src/main/java/Generateur"
             }
         }
     }
