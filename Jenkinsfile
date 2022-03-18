@@ -4,6 +4,7 @@ pipeline {
         stage('Recuperation du text') {
             steps {
                 echo 'Debut de clonage'
+                //test
             }
         }
     }
