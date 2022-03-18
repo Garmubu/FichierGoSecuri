@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('Recuperation du texte') {
             steps {
+                echo "dummy"
             }
         }
     }
