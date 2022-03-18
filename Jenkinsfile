@@ -1,10 +1,8 @@
 pipeline {
     agent any
     stages {
-        stage('Recuperation du text') {
+        stage('Recuperation du texte') {
             steps {
-                echo 'Debut de clonage'
-                //test
             }
         }
     }
